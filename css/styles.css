@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+
+.row {
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.row::after {
+    clear: both;
+    content: "";
+}
+
+.col1 {width:8.33%;}
+.col2 {width:16.66%;}
+.col3 {width:25;}
+.col4 {width:33.33%;}
+.col5 {width:41.66%;}
+.col6 {width:50%;}
+.col7 {width:58.33%;}
+.col8 {width:66.66%;}
+.col9 {width:75%;}
+.col10 {width:83.33%;}
+.col11 {width:91.66%;}
+.col12 {width:100%;}
+
+[class^="col"] {
+    padding:0;
+    margin: 0;
+
+}
+
+nav {
+    display: flex;
+    width:100%;
+    padding: 20px 5% 0 5%;
+    background-color:#f3f0f0;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 100px;
+}
+
+nav ul li a {
+    color:#565152;
+    font-weight: 500;
+    padding: 0 8px;
+}
+nav ul li a.active,
+nav ul li a:hover {
+    background-color: #dc143c;
+    border: none;
+    padding:8px 16px;
+    border-radius: 30px;
+    color:white;
+}
+
+.logoarea {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width:180px;
+    padding-right: 30px;
+}
+
+h1.nav-text {
+    color:#dc143c;
+    font-size: 2rem;
+}
+
+
+
+
+
+div.topheader {
+    display: block;
+    text-align: center;
+}
+
+div.topheader h2 {
+    color: #565152;
+    text-align: center;
+}
+
+.line {
+    border: 3px solid #dc143c;
+    width: 95%;
+    margin:auto;
+}
+
+
+
+header {
+    background-image: url("../images/hero-bg.png");
+    background-size:cover;
+    height: 635px;
+    width:100%;
+    padding: 4% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.compImg {
+    width: 100%;
+}
+button.vportfolio {
+    background-color: #dc143c;
+    color:white;
+    padding: 10px 22px;
+    border: none;
+}
+button.vportfolio h3 {
+    font-size: 2em;
+}
+
+.services {
+    width: 100%;
+    text-align: center;
+    background-color: #12ae98;
+    color:white;
+    margin: 0;
+    padding:20px;
+    font-size: 2em;
+}
+
+.midsection {
+    width: 100%;
+}
+
+.box {
+    margin: 8% 4%;
+    background-color: #f3f0f0;
+    border:#707070;
+    padding:15px;
+    text-align: center;
+}
+
+.box img {
+    width: 100%;
+}
+
+.box h4 {
+    color: #dc143c;
+    font-size: 1.5em;
+}
+
+footer {
+    background-color: #117468;
+    text-align: center;
+    padding: 5%;
+}
+
+footer img {
+    padding: 0 30px 30px 0;
+}
+
+ul.footnav li {
+    list-style: none;
+    display: inline-block;
+}
+ul.footnav li a {
+    color:white;
+    padding: 0 30px;
+}
+
+footer p {
+    margin-top: 4%;
+    color:#12ae98
+}
+
+
+#check {
+    display: none;
+}
+
+.mobilemenu {
+    display: none;
+}

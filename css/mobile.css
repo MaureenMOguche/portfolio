@@ -1,0 +1,44 @@
+@media (max-width:680px){
+    ul.topnav {
+        width:50%;
+        height: 100vh;
+        position: fixed;
+        background-color: #dc143c;
+        color: white;
+        top: 0;
+        left: -100%;
+        transition: all .6s ease-in;
+    }
+
+    ul.topnav li {
+        display: block;
+        text-align: center;
+    }
+
+    ul.topnav li a.active,
+    ul.topnav li a:hover {
+        font-weight: bolder;
+        font-size: larger;
+        transition: .5s;
+    }
+
+    [class^="col"]{
+        width:100%;
+    }
+    ul.footnav li a {
+        padding: 0 10px;
+    }
+    .mobilemenu {
+        display: block;
+        font-size: 35px;
+        color:#dc143c;
+        float: right;
+        cursor: pointer;
+    }
+
+    #check:checked ~ ul.topnav {
+        left: 0;
+    }
+
+
+}
